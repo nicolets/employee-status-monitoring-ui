@@ -1,5 +1,40 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+  flex-wrap: wrap;
+}
+
+.modalBackground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 400px;
+  height: 250px; 
+  background: white;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px 6px rgb(207, 207, 245);
+}
+
+.create {
+  margin: 20px;
+  background: rgb(144, 206, 235);
+  border: 1px solid rgb(44, 103, 105);
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
 }
 
 .App-logo {
